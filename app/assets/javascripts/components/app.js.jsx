@@ -7,6 +7,7 @@ class App extends React.Component {
   render() {
     return(
     <div className="app">
+      <NavBar/>
       <h1>Healthy mind, healthy time.</h1>
     </div>
     )
