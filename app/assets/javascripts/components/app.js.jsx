@@ -8,7 +8,7 @@ class App extends React.Component {
     return(
     <div className="app">
       <NavBar/>
-      <h1>Healthy mind, healthy time.</h1>
+      <Footer/>
     </div>
     )
   }
