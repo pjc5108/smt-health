@@ -8,6 +8,7 @@ class App extends React.Component {
     return(
     <div className="app">
       <NavBar/>
+      <Body/>
       <Footer/>
     </div>
     )
