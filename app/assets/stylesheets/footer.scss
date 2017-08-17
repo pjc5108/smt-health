@@ -1,4 +1,19 @@
 div.footer {
-  height: 10%;
-  border-top: solid 10px grey;
+  bottom: 0;
+  height: 25%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #D68EF7;
+}
+
+.footer-column {
+  height: 24%;
+
+}
+
+.footer-column-header{
+  // padding-left: 10px;
+  display: block;
+  margin: 10 auto;
 }
