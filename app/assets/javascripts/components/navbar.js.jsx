@@ -14,24 +14,34 @@ class NavBar extends React.Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="#">Brand Logo</a>
           </div>
 
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul className="nav navbar-nav navbar-right">
-              <li><a href="#">Link 1</a></li>
-              <li className="left-divider"><a href="#">Link 2</a></li>
-              <li><a href="#">Link 3</a></li>
-              <li className="dropdown">
-                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span className="caret"></span></a>
-                <ul className="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  {/*}<li role="separator" className="divider"></li>*/}
-                  <li><a href="#">Last link</a></li>
-                </ul>
-              </li>
+            <ul className="nav navbar-nav">
+              <li><a href="#">Home</a></li>
+                <li className="dropdown">
+                  <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Health Counseling <span className="caret"></span></a>
+                  <ul className="dropdown-menu">
+                    <li><a href="#">Program 1</a></li>
+                    <li><a href="#">Program 2</a></li>
+                    <li><a href="#">Program 3</a></li>
+                    {/*}<li role="separator" className="divider"></li>*/}
+                  </ul>
+                </li>
+                <li className="dropdown">
+                  <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Yoga <span className="caret"></span></a>
+                  <ul className="dropdown-menu">
+                    <li><a href="#">Private Session</a></li>
+                    <li><a href="#">Group Session</a></li>
+                    <li><a href="#">Corporate Yoga</a></li>
+                  </ul>
+                </li>
+              <li><a href="#">Juice+</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Blog</a></li>
+              <li className="left-divider"><a href="#">Testimonials</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
           </div>
         </nav>
