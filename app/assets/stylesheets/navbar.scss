@@ -1,17 +1,29 @@
-nav.navbar-upper {
-  margin-bottom: 0px;
-  border-radius: 0px;
+// nav.navbar {
+//   margin-bottom: 0px;
+//   border-radius: 0px;
+// }
+//
+// li.left-divider {
+//   border-left: solid 1px #E7E7E7;
+// }
+//
+// .aaaa {
+// }
+//
+// .bbbb {
+//   border-left: solid 2px red;
+//   border-right: solid 2px red;
+//   margin: 0 auto !important;
+//   align-self: center;
+// }
+
+.health-navbar {
+  width: 1000px;
+  height: 150px;
+  border: solid 2px red;
 }
 
-.navbar-lower {
-  height: 30px;
-  border-bottom: solid 1px #E7E7E7;
-}
-
-li.left-divider {
-  border-left: solid 1px #E7E7E7;
-}
-
-button.btn {
-  margin-top: 9px;
+.nav-list {
+  border: solid 1px blue;
+  margin: 0 auto !important;
 }
