@@ -1,29 +1,30 @@
-// nav.navbar {
-//   margin-bottom: 0px;
-//   border-radius: 0px;
-// }
-//
-// li.left-divider {
-//   border-left: solid 1px #E7E7E7;
-// }
-//
-// .aaaa {
-// }
-//
-// .bbbb {
-//   border-left: solid 2px red;
-//   border-right: solid 2px red;
-//   margin: 0 auto !important;
-//   align-self: center;
-// }
-
-.health-navbar {
-  width: 1000px;
-  height: 150px;
-  border: solid 2px red;
+a.navbar-link {
+  font-size: 18px;
+  color: #8a8989;
 }
 
-.nav-list {
-  border: solid 1px blue;
-  margin: 0 auto !important;
+a.navbar-link:visited {
+  color: #8a8989;
+}
+
+a.navbar-link:hover {
+  text-decoration: none;
+  color: #333333;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.link-container {
+  width: 852px; //need media query for small displays and mobile. May need to adjust width.
+  margin: 0 auto;
+}
+
+.left-divider {
+  border-left: solid 1px #E7E7E7;
+}
+
+.navbar-link {
+  margin: 10px;
 }
