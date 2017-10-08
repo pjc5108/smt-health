@@ -1,6 +1,7 @@
 a.navbar-link {
   font-size: 18px;
   color: #8a8989;
+  padding: 25px; //this padding creates block of color around link on hover.
 }
 
 a.navbar-link:visited {
@@ -10,6 +11,7 @@ a.navbar-link:visited {
 a.navbar-link:hover {
   text-decoration: none;
   color: #333333;
+  background-color: grey;
 }
 a.navbar-link:focus {
   text-decoration: none;
@@ -21,23 +23,20 @@ a.navbar-link:focus {
 }
 
 .link-container {
-  width: 852px; //need media query for small displays and mobile. May need to adjust width.
+  width: 730px; //need media query for small displays and mobile. May need to adjust width.
+  height: 75px;
   margin: 0 auto;
+  padding-top: 25px; //forces navbar-links to center within link container
+
 }
 
 .left-divider {
   border-left: solid 1px #E7E7E7;
 }
 
-.navbar-link {
-  margin: 10px;
-}
-
 .health-navbar {
   border-top: solid 2px black;
   border-bottom: solid 2px black;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 .top-banner-text {

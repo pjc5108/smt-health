@@ -24,11 +24,8 @@ class NavBar extends React.Component {
             </div>
             <a className="navbar-link" href="#">Yoga <span className="caret"></span></a>
             <a className="navbar-link" href="#">JuicePlus+</a>
-            <a className="navbar-link" href="#">Products</a>
             <a className="navbar-link" href="#">Blog</a>
-            <a className="navbar-link" href="#">Testimonials</a>
             <a className="navbar-link" href="#">About</a>
-            <a className="navbar-link" href="#">Contact</a>
           </div>
         </nav>
       </div>
