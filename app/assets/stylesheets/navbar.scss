@@ -1,17 +1,47 @@
-nav.navbar-upper {
-  margin-bottom: 0px;
-  border-radius: 0px;
+a.navbar-link {
+  font-size: 18px;
+  color: #8a8989;
+  padding: 25px; //this padding creates block of color around link on hover.
 }
 
-.navbar-lower {
-  height: 30px;
-  border-bottom: solid 1px #E7E7E7;
+a.navbar-link:visited {
+  color: #8a8989;
 }
 
-li.left-divider {
+a.navbar-link:hover {
+  text-decoration: none;
+  color: #333333;
+  background-color: grey;
+}
+a.navbar-link:focus {
+  text-decoration: none;
+  color: #333333;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.link-container {
+  width: 730px; //need media query for small displays and mobile. May need to adjust width.
+  height: 75px;
+  margin: 0 auto;
+  padding-top: 25px; //forces navbar-links to center within link container
+
+}
+
+.left-divider {
   border-left: solid 1px #E7E7E7;
 }
 
-button.btn {
-  margin-top: 9px;
+.health-navbar {
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+
+.top-banner-text {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bold;
 }

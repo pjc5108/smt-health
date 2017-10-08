@@ -6,39 +6,31 @@ class NavBar extends React.Component {
 
   render(){
     return(
-      <div className="full-navbar">
-        <nav className="navbar navbar-default navbar-upper">
-          <div className="navbar-header">
-            <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-            </button>
-            <a className="navbar-brand" href="#">Brand Logo</a>
-          </div>
-
-          <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul className="nav navbar-nav navbar-right">
-              <li><a href="#">Link 1</a></li>
-              <li className="left-divider"><a href="#">Link 2</a></li>
-              <li><a href="#">Link 3</a></li>
-              <li className="dropdown">
-                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span className="caret"></span></a>
-                <ul className="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  {/*}<li role="separator" className="divider"></li>*/}
-                  <li><a href="#">Last link</a></li>
-                </ul>
-              </li>
-            </ul>
+      <div>
+        <div className="top-banner">
+          <p className="top-banner-text">
+            Simone's Complete Health
+          </p>
+        </div>
+        <nav className="health-navbar">
+          <div className="link-container">
+            <a className="navbar-link" href="#">Home</a>
+            <div className="dropdown">
+              <a className="navbar-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Health Counseling <span className="caret"></span></a>
+              <ul className="dropdown-menu">
+                <li><a href="#">Private Counseling</a></li>
+                <li><a href="#">Corporate Counseling</a></li>
+              </ul>
+            </div>
+            <a className="navbar-link" href="#">Yoga <span className="caret"></span></a>
+            <a className="navbar-link" href="#">JuicePlus+</a>
+            <a className="navbar-link" href="#">Blog</a>
+            <a className="navbar-link" href="#">About</a>
           </div>
         </nav>
-        <div className="navbar-lower">
-
-        </div>
       </div>
+
+
     )
   }
 }
